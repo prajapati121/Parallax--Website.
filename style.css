@@ -1,0 +1,65 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.8m;
+    font-weight: 400; 
+    color: gray;
+}
+.image1{
+    background-image: url(image1.jpeg);
+    min-height: 100%;
+    background-attachment: fixed;
+}
+.image2{
+    background-image: url(image2.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+}
+.image3{
+    background-image: url(image3.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+}
+.image1,.image2,.image3{
+    position: relative;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image1-text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: 700;  
+}
+.textbg{
+    background-color:darkgrey;
+   padding:20px;
+    
+}
+.section1{
+    padding:50px, 80px;
+    text-align: center;
+   
+}
+.bg-section{
+    background-color:white;
+    color: rgb(112, 108, 108);
+}
+.section1 h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+.section1 p{
+padding-bottom: 10px;
+line-height: 1.5rem;
+}
